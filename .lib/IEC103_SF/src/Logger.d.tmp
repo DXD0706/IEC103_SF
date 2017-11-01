@@ -1,0 +1,2 @@
+Logger.o: src/Logger.cpp include/Logger.h include/Mutex.h \
+ include/FileHelper.h include/Mutex.h

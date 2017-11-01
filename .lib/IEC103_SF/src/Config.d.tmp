@@ -1,0 +1,2 @@
+Config.o: src/Config.cpp include/Config.h include/Logger.h \
+ include/Mutex.h include/EncapMysql.h include/WarningLib.h

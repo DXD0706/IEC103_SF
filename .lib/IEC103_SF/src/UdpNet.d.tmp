@@ -1,0 +1,2 @@
+UdpNet.o: src/UdpNet.cpp include/UdpNet.h include/Inet.h include/Logger.h \
+ include/Mutex.h include/WarningLib.h

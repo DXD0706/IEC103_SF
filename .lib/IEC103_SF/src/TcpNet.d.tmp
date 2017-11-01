@@ -1,0 +1,2 @@
+TcpNet.o: src/TcpNet.cpp include/TcpNet.h include/Inet.h \
+ include/WarningLib.h include/Logger.h include/Mutex.h

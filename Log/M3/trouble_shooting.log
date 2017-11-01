@@ -1,0 +1,41 @@
+17-11-01 09:06:45.783 FATAL [src/Logger.cpp:57] ------------------process start------------------
+ 17-11-01 09:06:45.783 ERROR [src/IEC103Manager.cpp:29] Configuration read error
+ 17-11-01 10:19:31.464 FATAL [src/Logger.cpp:57] ------------------process start------------------
+ 17-11-01 10:19:31.464 ERROR [src/IEC103Manager.cpp:49] 192.168.13.26
+ 17-11-01 10:19:31.464 ERROR [src/IEC103Manager.cpp:87] invalid netType 
+
+ 17-11-01 10:20:18.769 FATAL [src/Logger.cpp:57] ------------------process start------------------
+ 17-11-01 10:20:18.769 ERROR [src/IEC103Manager.cpp:49] 192.168.13.26
+ 17-11-01 10:20:18.769 ERROR [src/IEC103Manager.cpp:87] invalid netType 
+
+ 17-11-01 10:20:44.689 FATAL [src/Logger.cpp:57] ------------------process start------------------
+ 17-11-01 10:20:44.689 ERROR [src/IEC103Manager.cpp:50] 192.168.13.26
+ 17-11-01 10:20:44.689 ERROR [src/IEC103Manager.cpp:88] invalid netType 
+
+ 17-11-01 10:21:06.595 FATAL [src/Logger.cpp:57] ------------------process start------------------
+ 17-11-01 10:21:06.595 ERROR [src/IEC103Manager.cpp:50] 192.168.13.26
+ 17-11-01 10:21:06.595 ERROR [src/IEC103Manager.cpp:88] invalid netType 
+
+ 17-11-01 10:22:11.325 FATAL [src/Logger.cpp:57] ------------------process start------------------
+ 17-11-01 10:22:11.325 ERROR [src/IEC103Manager.cpp:50] 192.168.13.26
+ 17-11-01 10:22:11.326 ERROR [src/IEC103Manager.cpp:89] invalid netType 
+
+ 17-11-01 10:23:20.881 FATAL [src/Logger.cpp:57] ------------------process start------------------
+ 17-11-01 10:23:20.881 ERROR [src/IEC103Manager.cpp:49] 192.168.13.26
+ 17-11-01 10:24:01.814 FATAL [src/Logger.cpp:57] ------------------process start------------------
+ 17-11-01 10:24:01.814 ERROR [src/IEC103Manager.cpp:49] 192.168.13.26
+ 17-11-01 10:25:20.962 FATAL [src/Logger.cpp:57] ------------------process start------------------
+ 17-11-01 10:25:23.963 ERROR [src/WgjFunctionEx.cpp:246]  1 NULL connection redis failed . info(redis ip = 192.168.13.49 ,port = 6379)
+ 17-11-01 10:25:27.165 ERROR [src/WgjFunctionEx.cpp:246]  1 NULL connection redis failed . info(redis ip = 192.168.13.49 ,port = 6379)
+ 17-11-01 10:25:30.165 ERROR [src/WgjFunctionEx.cpp:246]  1 NULL connection redis failed . info(redis ip = 192.168.13.49 ,port = 6379)
+ 17-11-01 10:25:30.166 ERROR [src/WgjFunctionEx.cpp:246]  1 NULL connection redis failed . info(redis ip = 192.168.13.49 ,port = 6379)
+ 17-11-01 10:25:33.167 ERROR [src/WgjFunctionEx.cpp:246]  1 NULL connection redis failed . info(redis ip = 192.168.13.49 ,port = 6379)
+ 17-11-01 10:25:33.267 ERROR [src/WgjFunctionEx.cpp:246]  1 NULL connection redis failed . info(redis ip = 192.168.13.49 ,port = 6379)
+ 17-11-01 10:27:09.239 FATAL [src/Logger.cpp:57] ------------------process start------------------
+ 17-11-01 10:27:12.239 ERROR [src/WgjFunctionEx.cpp:246]  1 NULL connection redis failed . info(redis ip = 192.168.13.49 ,port = 6379)
+ 17-11-01 10:27:15.442 ERROR [src/WgjFunctionEx.cpp:246]  1 NULL connection redis failed . info(redis ip = 192.168.13.49 ,port = 6379)
+ 17-11-01 10:27:18.443 ERROR [src/WgjFunctionEx.cpp:246]  1 NULL connection redis failed . info(redis ip = 192.168.13.49 ,port = 6379)
+ 17-11-01 10:27:18.543 ERROR [src/WgjFunctionEx.cpp:246]  1 NULL connection redis failed . info(redis ip = 192.168.13.49 ,port = 6379)
+ 17-11-01 10:27:21.544 ERROR [src/WgjFunctionEx.cpp:246]  1 NULL connection redis failed . info(redis ip = 192.168.13.49 ,port = 6379)
+ 17-11-01 10:27:21.544 ERROR [src/WgjFunctionEx.cpp:246]  1 NULL connection redis failed . info(redis ip = 192.168.13.49 ,port = 6379)
+ 

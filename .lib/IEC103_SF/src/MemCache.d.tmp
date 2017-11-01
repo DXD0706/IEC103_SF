@@ -1,0 +1,2 @@
+MemCache.o: src/MemCache.cpp include/MemCache.h include/DBHelper.h \
+ include/Logger.h include/Mutex.h include/Config.h include/WarningLib.h

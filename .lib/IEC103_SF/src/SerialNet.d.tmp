@@ -1,0 +1,3 @@
+SerialNet.o: src/SerialNet.cpp include/SerialNet.h include/Inet.h \
+ include/Logger.h include/Mutex.h include/IEC103Type.h \
+ include/WarningLib.h

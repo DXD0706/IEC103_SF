@@ -1,0 +1,2 @@
+EncapMysql.o: src/EncapMysql.cpp include/EncapMysql.h include/Mutex.h \
+ include/Logger.h

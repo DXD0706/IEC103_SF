@@ -34,7 +34,7 @@ bool IEC103Manager::Init()
 	int redis_port;
 	wgjXMl.GetRedisConnectionConfig(redis_ip,redis_port);
 	WgjFunctionEx::GetInstance()->InitParam(Config::GetInstance()->GetChannelName(), redis_ip,redis_port);
-
+	vector<string> vecChannel = wgjXMl.GetTransmitChannel();
 
 	wgjXMl.InitIEC103Xml(Config::GetInstance()->GetChannelName());
 	IEC103::Map_IEC103Config mapConfig = wgjXMl.GetIEC103Param();
@@ -80,6 +80,13 @@ bool IEC103Manager::Init()
 		//网络通信
 		strNetType = "Internet";
 		m_service = new Service();
+		m_service->setChannel(vecChannel);
+		m_service->setChannel("config");
+		m_service->setPointAddrMap(mapPoint);
+		if(m_service->connectRedis(redis_ip,redis_port))
+		{
+			WgjFunctionEx::GetInstance()->LogSend(LOGINFO::INFO,LOGINFO::NORMAL,"start parse");
+		}
 	}
 	else
 	{
@@ -87,14 +94,7 @@ bool IEC103Manager::Init()
 		return false;
 	}
 
-	vector<string> vecChannel = wgjXMl.GetTransmitChannel();
-	m_service->setChannel(vecChannel);
-	m_service->setChannel("config");
-	m_service->setPointAddrMap(mapPoint);
-	if(m_service->connectRedis(redis_ip,redis_port))
-	{
-		WgjFunctionEx::GetInstance()->LogSend(LOGINFO::INFO,LOGINFO::NORMAL,"start parse");
-	}
+
 	return true;
 }
 
